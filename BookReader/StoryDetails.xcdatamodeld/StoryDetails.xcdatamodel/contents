@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14460.32" systemVersion="18A391" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Chapters" representedClassName="Chapters" syncable="YES" codeGenerationType="class">
+        <attribute name="bookid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="comic_author" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="comic_description" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="comic_image" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="comic_pages" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="comic_price" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="comic_title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="index" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Comics" representedClassName="Comics" syncable="YES" codeGenerationType="class">
+        <attribute name="author" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="comic_description" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pages" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="price" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="LastRead" representedClassName="LastRead" syncable="YES" codeGenerationType="class">
+        <attribute name="author" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="comic_description" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pages" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="price" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Chapters" positionX="-54" positionY="45" width="128" height="195"/>
+        <element name="Comics" positionX="-63" positionY="-18" width="128" height="150"/>
+        <element name="LastRead" positionX="-54" positionY="36" width="128" height="150"/>
+    </elements>
+</model>
