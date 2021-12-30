@@ -16,7 +16,7 @@ A `mac environment` is required to build and run this application.
 
 ## Running the Application
 1. Clone the project
-2. Open the Project in XCode by double clicking on `Bookreader.Xcodeproj` in the project root folder.
+2. Open the Project in XCode by double clicking on `BookReader.Xcodeproj` in the project root folder.
 3. Once the project has been opened in XCode, Click on the `Play` button on the top left corner of the title bar. It will start building the project and launch the emulator with the applciation.
 4. In case you want to test/deploy the application on your `iPhone` follow the steps provided in the [link](https://codewithchris.com/deploy-your-app-on-an-iphone/).
 
